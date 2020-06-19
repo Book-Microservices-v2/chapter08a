@@ -23,3 +23,7 @@ spring:
               - "GET"
               - "POST"
               - "OPTIONS"
+# Uncomment the configuration below if you want to enable route matching logs
+#logging:
+#  level:
+#    org.springframework.cloud.gateway.handler.predicate: trace
